@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .hero {
+            background: #0073e6;
+            color: white;
+            padding: 50px 20px;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .btn {
+            background: #ffcc00;
+            color: black;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .features {
+            padding: 40px 20px;
+        }
+        .feature {
+            margin-bottom: 20px;
+        }
+        .contact {
+            background: #f4f4f4;
+            padding: 40px 20px;
+        }
+        input, textarea {
+            width: 80%;
+            max-width: 400px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background: #0073e6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Welcome to Our Landing Page</h1>
+        <p>Boost your business with our amazing solutions</p>
+        <a href="#contact" class="btn">Get Started</a>
+    </div>
+    
+    <div class="features">
+        <div class="feature">
+            <h2>Feature One</h2>
+            <p>Highlight key benefits of your product/service.</p>
+        </div>
+        <div class="feature">
+            <h2>Feature Two</h2>
+            <p>Explain why your solution is the best.</p>
+        </div>
+        <div class="feature">
+            <h2>Feature Three</h2>
+            <p>Showcase testimonials or case studies.</p>
+        </div>
+    </div>
+    
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required><br>
+            <input type="email" placeholder="Your Email" required><br>
+            <textarea placeholder="Your Message" rows="4" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>
